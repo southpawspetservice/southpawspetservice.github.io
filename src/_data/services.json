@@ -1,0 +1,53 @@
+ [
+    {
+      "name": "Dog Walking",
+      "description": [
+        {
+          "body": "Includes 30 minutes of walking in your immediate neighborhood unless specified otherwise. We will walk in rain or snow."
+        },
+        {
+          "body": "Pet cleanup on walks is included in the base price."
+        },
+        {
+          "body": "For an additional fee (see rates), dogs may be transported to local dog parks or other outdoor destinations that are favorable for dog walking and play. Price includes transportation."
+        }
+      ]
+    },
+    {
+      "name": "Overnight In-home Pet Sitting",
+      "description": [
+        {
+          "body": "The base price for overnight stays in your home include: A late night potty break, late evening play, drinking water changeouts, a morning potty break, a morning feeding, and other in-home services regarding security. Overnight stays cost $10/night in addition to the base visit rates applied to that day of service. Overnight in-home pet care is scheduled based on staff availability, so please give us plenty of notice."
+        }
+      ]
+    },
+    {
+      "name": "Daytime In-home Pet Sitting",
+      "description": [
+        {
+          "title": "Pet Play and Cuddle Time",
+          "body": "Dogs love attention, especially when owners are away for a time. We can socialize with your animals and provide them the love and affection you would otherwise provide while you are away from you beloved pet(s). We will spend up to 30 minutes of play time with your pet(s) per visit."
+        },
+        {
+          "title": "Pet Feeding and Watering",
+          "body": "During visits to your home, we can feed your pet(s) and give them fresh water to drink. Food and water supply is to be provided by the customer."
+        },
+        {
+          "title": "Mail and Newspaper Retrieval",
+          "body": "As part of our home visit, we can retrieve any daily deliveries to your house for you and leave them in your home to give your home a \"lived in\" look during your absence."
+        },
+        {
+          "title": "House Lights, Curtains, and Plants",
+          "body": "As part of our home visit, we can manage your lights and window blind/curtains during your vacations or business trips. As part of our home visit, we can water your plants. We also have a master gardener on staff for your indoor plant needs."
+        }
+      ]
+    },
+    {
+      "name": "Yard Pet Waste Removal",
+      "description": [
+        {
+          "body": "We can remove pet waste from your yard for disposal on a regular basis anytime. Disposal bags are provided by South Paws Pet Service at no additional fee. We can also change out or clean up litterboxes during home visits. Litter is to be provided by the customer."
+        }
+      ]
+    }
+]

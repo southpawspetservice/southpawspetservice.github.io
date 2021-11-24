@@ -1,0 +1,11 @@
+---
+permalink: '/policies.html'
+layout: base
+title: Policies
+---
+{%for policy in policies %}
+<h2>{{policy.title}}</h2>
+{%for par in policy.description%}
+<p>{{par}}</p>
+{%endfor%}
+{%endfor%}
