@@ -1,0 +1,19 @@
+---
+permalink: '/testimonials.html'
+title: 'What Customers Have to Say'
+label: 'Testimonials'
+layout: base
+---
+<div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+        {% for testimonial in testimonials %}
+            <div class="col">
+                <div class="card">
+                    <h2 class="card-header fs-5">{{ testimonial.name }}</h2>
+                    <p class="card-body fs-6">{{testimonial.body}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

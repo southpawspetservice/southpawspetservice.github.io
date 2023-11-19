@@ -1,0 +1,21 @@
+---
+pagination:
+  data: discounts
+  size: 1
+  alias: discount
+permalink: "coupons/{{ discount.code }}/"
+---
+<div class="container">
+    <div class="row">
+        <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6">
+            <h1>{{ discount.title }}</h1>
+            <p>{{ discount.description }}</p>
+            <ul>
+                {% for detail in discount.details %}
+                <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+            <p><small>Expiration: {{ discount.expiration }}</small></p>
+        </div>
+    </div>
+</div>
