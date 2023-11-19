@@ -1,0 +1,21 @@
+---
+permalink: '/gallery.html'
+layout: base
+title: Gallery
+---
+<div class="container">
+    <div class="offset-1 col-10">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 align-items-center">
+            {% for item in gallery %}
+            <div class="col">
+                <figure class="card">
+                    <img src="{{item.src}}" alt="" class="card-img-top">
+                    <figcaption class="card-body">
+                        <p class="card-text">{{item.description}}</p>
+                    </figcaption>
+                </figure>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

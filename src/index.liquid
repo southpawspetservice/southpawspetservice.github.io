@@ -2,7 +2,7 @@
 layout: base
 title: South Paws Pet Service
 ---
-<div class="jumbotron bg-white text-primary text-center">
+<div class="p-4  my-3 bg-white text-primary text-center">
     <h1>
         All Types of Pets. Any Day You Need Us.
         <br>
@@ -18,7 +18,7 @@ title: South Paws Pet Service
     <div class="card-body">
         <div class="row align-items-center">
             <div class="col-md-4 text-center">
-                <img src="/assets/images/260_Smokey_and_Cody.jpg" alt="" style="margin: auto">
+                <img src={{ "assets/images/260_Smokey_and_Cody.jpeg" | url }} alt="" style="margin: auto">
             </div>
             <div class="col-md-8">
                 <p>Dogs can't hold their bladder any more than we can, so to ease their discomfort, let us solve that
@@ -27,7 +27,7 @@ title: South Paws Pet Service
         </div>
     </div>
 </section>
-<aside class="jumbotron text-center mt-4 bg-white text-info">
+<aside class="p-4  text-center my-4 bg-white text-info">
     <h1>We Make House Calls!</h1>
 </aside>
 <section class="card">
@@ -49,7 +49,7 @@ title: South Paws Pet Service
         </div>
     </div>
 </section>
-<aside class="jumbotron text-center mt-4 bg-white text-warning">
+<aside class="p-4 text-center my-4 bg-white text-warning">
     <h1>Try Our In-Home Pet Day Care and You'll Get 1-on-1 Interaction with Your Pets</h1>
     <p class="p-4">Animals need interaction with other people so that they don't get bored and tear the house up. We can
         help with the "separation anxiety" by giving your pets the attention they want.</p>
@@ -61,10 +61,10 @@ title: South Paws Pet Service
         <p>We will even do that for you. We can clean your yard outside on a regular basis year round.</p>
     </div>
 </section>
-<div class="row justify-content-md-center mt-4">
+<div class="row justify-content-md-center my-4">
     <div class="col-lg-4">
         <p>
-            <a href="/services.html" class="btn btn-block btn-lg btn-primary text-uppercase">See All Our Services</a>
+            <a href={{ "/services.html" | url }} class="btn btn-block btn-lg btn-primary text-uppercase">See All Our Services</a>
         </p>
     </div>
 </div>

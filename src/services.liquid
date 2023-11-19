@@ -3,18 +3,18 @@ permalink: '/services.html'
 layout: base
 title: Dog Walking Service
 ---
-<div class="jumbotron bg-gradient-pimary">
+<div class="p-4 bg-gradient-pimary">
     <h2>South Paws Pet Services is pleased to offer our customers personalized and compassionate pet care.</h2>
     <div class="row align-items-center">
-        <div class="col-md-2">
+        <div class="col-md-4 text-center">
             <figure class="float-md-left">
-                <img src="/assets/images/clare-holding-a-dog.jpg" alt="" class="img-fluid">
+                <img src={{ "assets/images/clare-holding-a-dog.jpeg" | url }} alt="" class="img-fluid">
                 <figcaption>Clare Sarros, owner, with a client's dog.</figcaption>
             </figure>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-8">
             <p>As a dog owner for 26 years I understand the need of dogs and other pets for love and affections on a daily basis.  I also understand the sense of abandonment or separation anxiety that a pet can experience when left at home alone during the work day or at veterinarian kennels or boarding facilities.</p>
-            <p>These facilities can also become fairly expensive and can take away from vacation plans due to the higher costs and limited availabilities to accommodate your pet(s).  It is well known that pets that get regular exercise tend to live longer and have healthier lives.  It is our goal to provide you a better option for your pet(s) health and well being, your budget, and your sound piece of mind knowing that your pet(s) are being given quality personalized care.</p>
+            <p>These facilities can also become fairly expensive and can take away from vacation plans due to the higher costs and limited availabilities to accommodate your pet(s).  It is well known that pets that get regular exercise tend to live longer and have healthier lives.  It is our goal to provide you a better option for your pet(s) health and well-being, your budget, and your sound piece of mind knowing that your pet(s) are being given quality personalized care.</p>
         </div>
     </div>
 </div>
@@ -25,15 +25,15 @@ title: Dog Walking Service
     </div>
     <div class="col-md-4">
         <figure class="text-center">
-            <img src="/assets/images/happy-looking-golden-retriever.jpg" alt="">
+            <img src={{ "assets/images/happy-looking-golden-retriever.jpeg" | url }} alt="">
             <figcaption>Your pet is like family.</figcaption>
         </figure>
     </div>
 </div>
 <p></p>
-<div class="row">
+<div class="row gap-3">
     {% for service in services %}
-    <div class="col-md-6 my-4">
+    <div class="offset-lg-2 col-12 col-lg-8">
         <div class="card">
             <div class="card-header"><h3>{{service.name}}</h3></div>
             <div class="card-body">
@@ -49,7 +49,6 @@ title: Dog Walking Service
     {% endfor %}
 </div>
 <figure class="text-center py-5">
-    <img src="/assets/images/sarros-family-with-our-two-dogs.jpg" alt="">
+    <img src={{ "assets/images/sarros-family-with-our-two-dogs.jpeg" | url }} alt="">
     <figcaption>We are a pet-loving family too.</figcaption>
 </figure>
-</main>
